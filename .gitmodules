@@ -1,0 +1,3 @@
+[submodule "flatpaks/com.ankama.Zaap"]
+	path = flatpaks/com.ankama.Zaap
+	url = git@github.com:MatthieuCoder/com.ankama.Zaap.git
