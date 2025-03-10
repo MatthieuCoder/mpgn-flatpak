@@ -30,7 +30,7 @@ jobs:
       - run: |
           flatpak install -y --noninteractive org.electronjs.Electron2.BaseApp/x86_64/23.08
       - name: Build
-        uses: andyholmes/flatter@main
+        uses: MatthieuCoder/flatter@patch-1
         with:
           files: |
             flatpaks/com.ankama.Zaap/com.ankama.Zaap.yml
